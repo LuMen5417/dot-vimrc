@@ -248,6 +248,7 @@ nnoremap ; :
 nmap <C-N> :bp<cr>
 nmap <C-M> :bn<cr>
 nmap <C-F> :Ack<SPACE>
+nmap <C-C> :bd<cr><C-M>
 
 colorscheme desert
 
