@@ -203,7 +203,7 @@ nmap <F6> :NERDTreeToggle<cr>
 nmap <F3> :GundoToggle<cr>
 nmap <F4> :IndentGuidesToggle<cr>
 nmap  <D-/> :
-nnoremap <leader>a :Ack
+"nnoremap <leader>a :Ack
 nnoremap <leader>v V`]
 
 "------------------
@@ -245,6 +245,12 @@ nnoremap ; :
 :command Qa qa
 :command QA qa
 
+nmap <C-N> :bp<cr>
+nmap <C-M> :bn<cr>
+nmap <C-F> :Ack<SPACE>
+
+colorscheme desert
+
 " for macvim
 if has("gui_running")
     set go=aAce  " remove toolbar
@@ -266,3 +272,5 @@ if has("gui_running")
     map <D-9> 9gt
     map <D-0> :tablast<CR>
 endif
+
+
