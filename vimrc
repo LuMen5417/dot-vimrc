@@ -252,7 +252,8 @@ nmap <C-C> :bd<cr><C-M>
 
 colorscheme desert
 
-" for macvim
+let g:DoxygenToolkit_authorName="luomin5417@gmail.com"
+
 if has("gui_running")
     set go=aAce  " remove toolbar
     "set transparency=30
